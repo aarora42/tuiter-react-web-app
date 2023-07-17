@@ -1,0 +1,103 @@
+.wd-search-bar {
+    background-color: lightgrey;
+    border-radius: 20px; 
+    padding: 5px;
+  }
+
+  .wd-search-bar input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+
+  .wd-search-bar input::placeholder {
+    color: darkgrey;
+  }
+
+  .wd-search-bar i {
+    margin-right: 5px;
+    color: darkgrey;
+  }
+  .wd-grid-row {
+    clear: both;
+ }
+ 
+ .wd-grid-col-third-page {
+    width: 33%;
+    float: left;
+  }
+ .wd-grid-col-two-thirds-page {
+    width: 67%;
+    float: left;
+ }
+ .wd-float-left {
+  float: left;
+}
+
+.wd-float-right {
+  float: right;
+  height: 100px;
+}
+
+.wd-float-done {
+  clear: both;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  }
+  
+  .wd-menu {
+  float: left;
+  width: 12%;
+  margin-right: 5px;
+  padding: 2px;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+
+  }
+  li .wd-selected {
+    display: inline-block; 
+    padding-bottom: 10px; 
+    position: relative; 
+  }
+  
+  li .wd-selected::after {
+    content: "";
+    display: block;
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 2px solid blue;
+    margin-bottom: 2px; 
+  }
+  .wd-pos-absolute-10-10 {
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+    color: white;
+ }
+ .wd-section {
+  padding: 1px;
+  color: darkgrey;
+  font-family: Verdana, sans-serif;
+  margin: 0px;
+ }
+ h4 {
+  font-family: Verdana, sans-serif;
+  margin: 0px;
+  font-size: 22px;
+ }
+ h2 {
+  margin:5px;
+ }
+ .wd-tuit {
+  margin: 10px;
+ }
+ img {
+  width: 100%;
+ }

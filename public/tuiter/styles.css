@@ -1,0 +1,10 @@
+.grid-col-third-page {
+    width: 33%;
+    float: left;
+ }
+ 
+ .grid-col-two-thirds-page {
+    width: 67%;
+    float: left;
+ }
+ 
