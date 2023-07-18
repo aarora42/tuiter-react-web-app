@@ -1,0 +1,81 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    }
+.wd-float-left {
+    float: left;
+  }
+
+  .wd-float-right {
+    float: right;
+  }
+h2 {
+    margin: 0px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+}
+h3 {
+    margin: 0px;
+    margin-bottom: 2px;
+}
+.wd-float-done {
+    clear: both;
+  }
+.wd-blue {
+    color: blue;
+}
+
+.wd-handle {
+    color:darkgray;
+    padding-left: 3px;
+}
+
+.wd-avatar {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.wd-rounded-corners-top {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+   }
+   
+   .wd-rounded-corners-bottom {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+   }
+.wd-card {
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+    margin-left: 50px;
+}
+.wd-card-img {
+    width: 100%;
+}
+.wd-card-text {
+    width: 100%;
+    padding: 20px;
+}
+.wd-tuit {
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+    margin: 12px;
+    padding:30px;
+}
+
+.wd-mr {
+    margin-right: 14px;
+    padding: 5px;
+    width: 15%;
+    float: left;
+}
