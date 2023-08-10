@@ -9,6 +9,7 @@ import {BiBold} from "react-icons/bi";
 import {BiItalic} from "react-icons/bi";
 import {useDispatch} from "react-redux";
 import { createTuit } from "./reducers/tuits-reducer";
+import { createTuitThunk } from "./services/tuit-thunks";
 
 
 const WhatsHappening = () => {
@@ -21,7 +22,7 @@ const WhatsHappening = () => {
      tuit: whatsHappening
    }
    console.log(newTuit + "from what's happening");
-   dispatch(createTuit(newTuit));
+   dispatch(createTuitThunk(newTuit));
    setWhatsHappening("");
  }
  return (

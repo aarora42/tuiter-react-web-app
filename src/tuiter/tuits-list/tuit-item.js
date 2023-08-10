@@ -2,8 +2,9 @@ import React from "react";
 import TuitStats from "./tuit-stats";
 import { MdVerified } from "react-icons/md";
 import { useDispatch } from "react-redux";
-import { deleteTuit } from "../reducers/tuits-reducer";
 import {RxCross2} from 'react-icons/rx'
+import {deleteTuitThunk} from "../services/tuit-thunks";
+
 
 const TuitItem = ({
   tuit = {
@@ -17,7 +18,7 @@ const TuitItem = ({
 }) => {
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
   };
 
   return (
