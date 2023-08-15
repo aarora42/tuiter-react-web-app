@@ -16,8 +16,10 @@ const TuitItem = ({
     image: "tesla.png",
   },
 }) => {
+  console.log(tuit);
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
+    console.log(id);
     dispatch(deleteTuitThunk(id));
   };
 
